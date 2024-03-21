@@ -44,7 +44,7 @@ const leftStates = [{
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "BHAJANLAL SHARMA"
 },
 {
   state: "MAHARASHTRA",
@@ -79,14 +79,14 @@ const leftStates = [{
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "SUKHVINDER SINGH"
 },
 {
   state: "KERELA",
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "PINARAYI VIJAYAN"
 },
 {
   state: "PUNJAB",
@@ -107,28 +107,28 @@ const leftStates = [{
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "PROMAD SAWANT"
 },
 {
   state:"LAKSHADWEEP",
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "PRAFUL PATEL"
 },
 {
   state:"DELHI",
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "ARVIND KEJRIWAL"
 },
 {
   state:"HARYANA",
   seats: "220",
   mla: "120",
   mp: "145",
-  cmName: "AMARINDER SINGH"
+  cmName: "MANOHARLAL KHATTAR"
 }
 ];
 
@@ -238,10 +238,10 @@ function displayStateDetails(state) {
 const stateDetails = leftStates.find(item => item.state === state);
 if (stateDetails) {
   stateNameElement.innerHTML = stateDetails.state;
-  seatsElement.innerHTML = "" + stateDetails.seats;
-  mlaElement.innerHTML = "" + stateDetails.mla;
-  mpElement.innerHTML = "" + stateDetails.mp;
-  cmNameElement.innerHTML = "" + stateDetails.cmName;
+  seatsElement.innerHTML = "SEATS : " + stateDetails.seats;
+  mlaElement.innerHTML = "MLA : " + stateDetails.mla;
+  mpElement.innerHTML = "MP : " + stateDetails.mp;
+  cmNameElement.innerHTML = "CM : " + stateDetails.cmName;
 
   cmNameElement.style.backgroundColor = "";
 
@@ -270,147 +270,147 @@ const rightStates = [{
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "PUSHKAR SINGH DHAMI "
 },
 {
   state: "UTTAR PRADESH",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "YOGI ADITYANATH"
 },
 {
   state: "MADHYA PRADESH",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "SUSHIL KUMAR"
 },
 {
   state: "CHHATTISGARH",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "BHUPESH BAGHEL"
 },
 {
   state: "TELANGANA",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "KALVAKUNTALA RAO"
 },
 {
   state: "ANDHRA PRADESH",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "JAGAN REDDY"
 },
 {
   state: "TAMIL NADU",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "M.K STALIN"
 },
 {
   state: "ODISHA",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "NAVEEN PATNAIK"
 },
 {
   state: "BIHAR",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "NITISH KUMAR"
 },
 {
   state: "JHARKHAND",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "HEMANT SEORAN"
 },
 {
   state: "WEST BENGAL",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "MAMATA BANERJEE"
 },
 {
   state: "ASSAM",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "HIMANTA BISWA"
 },
 {
   state: "MEGHALAYA",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "CONARD SANGMA"
 },
 {
   state: "TRIPURA",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "MANIK SAHA"
 },
 {
   state: "MIZORAM",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "ZORZMTHANGA"
 },
 {
   state: "NAGALAND",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "NEIPHIU ROI"
 },
 {
   state: "SIKKIM",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "PREM SINGH"
 },
 {
   state: "PUDUCHERRY",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "N. RANGASWAMY"
 },
 {
   state: "MANIPUR",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "BIREN SINGH"
 },
 {
   state: "ARUNACHAL PRADESH",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "PEMA KHANDU"
 },
 {
   state: "ANDAMAN AND NICCOBAR",
   seats: "270",
   mla: "100",
   mp: "150",
-  cmName: "ASHOK GEHLOT"
+  cmName: "DEVENDRA KUMAR"
 }
 ]
 
@@ -568,10 +568,10 @@ function displayStateDetailsright(state) {
   const stateDetailsright = rightStates.find(item => item.state === state);
   if (stateDetailsright) {
     stateNameright.innerHTML = stateDetailsright.state;
-    seatsright.innerHTML = "" + stateDetailsright.seats;
-    mlaright.innerHTML = "" + stateDetailsright.mla;
-    mpright.innerHTML = "" + stateDetailsright.mp;
-    cmNameright.innerHTML = "" + stateDetailsright.cmName;
+    seatsright.innerHTML = "SEATS : " + stateDetailsright.seats;
+    mlaright.innerHTML = "MLA : " + stateDetailsright.mla;
+    mpright.innerHTML = "MP : " + stateDetailsright.mp;
+    cmNameright.innerHTML = "CM : " + stateDetailsright.cmName;
   
     cmNameright.style.backgroundColor = "";
   
